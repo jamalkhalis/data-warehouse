@@ -25,12 +25,12 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="collapse navbar-collapse mobile-style" id="navbarSupportedContent">
 
 				<ul class="navbar-nav ms-lg-5  me-auto mb-2 mb-lg-0">
 
 					<li class="nav-item me-4">
-						<a class="nav-link active" aria-current="page" href="#">About</a>
+						<a class="nav-link active" aria-current="page" href="#about">About</a>
 					</li>
 
 					<li class="nav-item me-4">
@@ -38,11 +38,11 @@
 					</li>
 
 					<li class="nav-item me-4">
-						<a class="nav-link">Features</a>
+						<a class="nav-link" href="#features">Features</a>
 					</li>
 
 					<li class="nav-item me-4">
-						<a class="nav-link">Signup</a>
+						<a class="nav-link" href="#testimonial">Signup</a>
 					</li>
 
 				</ul>
@@ -67,17 +67,17 @@
 	<header>
 		<div id="headerContent" class="container">
 			<div class="row align-items-center h-100">
-				<div class="col-lg-6 col-12 mt-5 pt-5">
+				<div class="col-12 col-xl-6 mt-5 pt-5">
 					<h3 class="color-black main-title">Save your data storage here.</h3>
 
-					<p class="w-50 my-5">
+					<p class="w-lg-50 my-5">
 						Data Warehouse is a data storage area that has been
 						tested for security, so you can store your data here
 						safely but not be afraid of being stolen by others.
 					</p>
 
 					<div>
-						<button type="button" class="btn btn-lg btn-2 rounded-pill">Learn more</button>
+						<a href="#about" class="btn btn-lg btn-2 rounded-pill">Learn more</a>
 					</div>
 
 				</div>
@@ -108,11 +108,11 @@
 		</div>
 	</section>
 
-	<section class="mt-5 pt-5 container-fluid container-md">
+	<section class="mt-5 pt-5 container-fluid container-md" id="features">
 
 		<div class="mt-5">
 			<h4 class="text-center title color-black">Features</h4>
-			<p class="w-50 mx-auto text-center px-5 mt-5">
+			<p class="w-lg-50 mx-auto text-center px-5 mt-5">
 				Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.
 			</p>
 		</div>
@@ -224,13 +224,13 @@
 		</div>
 	</section>
 
-	<section class="my-5 py-5">
-		<div id="testimonial" class="container my-5 p-5">
-			<h3 class="title text-white py-5 ms-5">Testimonials</h3>
+	<section class="my-5 px-2 py-2 py-md-5">
+		<div id="testimonial" class="container my-5 p-1 p-md-5">
+			<h3 class="title text-white py-5 ms-2 ms-md-5">Testimonials</h3>
 			<!-- Flickity HTML init -->
-			<div class="carousel ms-5 my-5" data-flickity>
+			<div class="carousel ms-2 ms-md-5 my-5" data-flickity='{ "autoPlay": true }'>
 
-				<div class="carousel-cell p-5 bg-white rounded-5 me-4">
+				<div class="carousel-cell p-2 p-md-5 bg-white rounded-5 me-4">
 					<div class="row">
 						<div class="col-3">
 							<img src="./assets/img/img-11.svg">
@@ -246,7 +246,7 @@
 					</div>
 				</div>
 
-				<div class="carousel-cell p-5 bg-white rounded-5 me-4">
+				<div class="carousel-cell p-2 p-md-5 bg-white rounded-5 me-4">
 					<div class="row">
 						<div class="col-3">
 							<img src="./assets/img/img-12.svg">
@@ -262,7 +262,7 @@
 					</div>
 				</div>
 
-				<div class="carousel-cell p-5 bg-white rounded-5 me-4">
+				<div class="carousel-cell p-2 p-md-5 bg-white rounded-5 me-4">
 					<div class="row">
 						<div class="col-3">
 							<img src="./assets/img/img-13.svg">
@@ -286,7 +286,7 @@
 	<hr class="color-violet">
 	<footer>
 		<div class="container my-5 pt-5">
-			<div class="d-flex justify-content-between align-items-center">
+			<div class="d-lg-flex justify-content-between align-items-center">
 
 				<div>
 					<h4 class="title color-black">Try for free!</h4>
@@ -295,12 +295,12 @@
 					</p>
 				</div>
 
-				<div>
+				<div class="text-center">
 
 					<button type="button" class="btn btn-lg btn-3 rounded-pill">Learn more</button>
 
 
-					<button type="button" class="btn btn-lg btn-1 py-2 color-black ms-3">
+					<button type="button" class="btn btn-lg btn-1 py-2 color-black ms-lg-3 mt-4 mt-sm-0">
 						<div class="d-flex justify-content-evenly">
 							<span>
 								Request Demo
@@ -339,16 +339,16 @@
 				</div>
 
 				<div class="col-lg-2 color-black">
-					<div class="fw-bolder">About</div>
-					<div class="fw-normal mt-4">Profile</div>
+					<div class="fw-bolder mt-4 mt-lg-0">About</div>
+					<div class="fw-normal mt-2 mt-lg-4">Profile</div>
 					<div class="fw-normal mt-2">Features</div>
 					<div class="fw-normal mt-2">Careers</div>
 					<div class="fw-normal mt-2">DW News</div>
 				</div>
 
 				<div class="col-lg-2 color-black">
-					<div class="fw-bolder">Help</div>
-					<div class="fw-normal mt-4">Support</div>
+					<div class="fw-bolder mt-4 mt-lg-0">Help</div>
+					<div class="fw-normal mt-2 mt-lg-4">Support</div>
 					<div class="fw-normal mt-2">Sign up</div>
 					<div class="fw-normal mt-2">Guide</div>
 					<div class="fw-normal mt-2">Reports</div>
@@ -356,9 +356,9 @@
 				</div>
 
 				<div class="col-lg-4">
-					<div class="fw-bolder">Social Media</div>
+					<div class="fw-bolder mt-4 mt-lg-0">Social Media</div>
 					
-					<div class="mt-4">
+					<div class="mt-2 mt-lg-4">
 						<img src="./assets/libraries/icons/facebook.svg" class="img-fluid">
 						<img src="./assets/libraries/icons/twitter.svg" class="img-fluid ms-2">
 						<img src="./assets/libraries/icons/instagram.svg" class="img-fluid ms-2">
